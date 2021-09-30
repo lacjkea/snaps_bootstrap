@@ -1,0 +1,67 @@
+/* Mine fonte */
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap");
+
+:root {
+  --bs-font-sans-serif: "Poiret One", cursive;
+}
+
+.baggrunds_billed_hero {
+  background-image: url(img/skille_billed_skov.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+.flaske_h {
+  width: 50%;
+  height: auto;
+  place-self: center;
+}
+
+/**************************************************/
+/* Small devices (landscape phones, 576px and up) */
+/**************************************************/
+@media (min-width: 576px) {
+}
+
+/* END "sm-" 576px and up */
+
+/**************************************************/
+/* // Medium devices (tablets, 768px and up) */
+/**************************************************/
+@media (min-width: 768px) {
+  .baggrunds_billed_hero {
+    background-image: url(img/splach_billed.png);
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .flaske_h {
+    width: 20%;
+    height: auto;
+    place-self: start;
+  }
+}
+
+/* END "md-" 768px and up */
+/**************************************************/
+/* // Large devices (desktops, 992px and up) */
+/**************************************************/
+@media (min-width: 992px) {
+  /* END "lg-" 992px and up */
+}
+
+/**************************************************/
+/* // Extra large devices (large desktops, 1200px and up) */
+/**************************************************/
+@media (min-width: 1200px) {
+  /* END "xl-" 1200px and up */
+}
+
+/**************************************************/
+/* // Extra Extra large (XXL) devices (XXL screens, 1400px and up) */
+/**************************************************/
+@media (min-width: 1400px) {
+  /* END "xxl-" 1400px and up */
+}
