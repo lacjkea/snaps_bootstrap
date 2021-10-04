@@ -11,13 +11,14 @@
   background-image: url(img/skille_billed_skov.png);
   background-size: cover;
   height: 100vh;
+  background-position: right;
 }
 
-.flaske_h {
+/* .flaske_h {
   width: 50%;
   height: auto;
   place-self: center;
-}
+} */
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
